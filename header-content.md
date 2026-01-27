@@ -1,56 +1,107 @@
 # Header UI – Content Only
 
-Document version: 1.0  
+Document version: 1.1  
 Last updated: January 27, 2026  
-Scope: Text labels and microcopy for the site header (no design specs).
+Scope: All header text labels and microcopy (no design/tech).
 
 ---
 
-## Navigation Labels (Desktop & Mobile)
-1) Home
-2) Programs
-3) Services
-4) Comparison
-5) Research
-6) Pricing
-7) FAQ
+## Top-Level Navigation Labels
+1) Start Study ▾
+2) Who We Serve ▾
+3) About ▾
+4) Resources ▾
+5) Pricing
+6) My Account (CTA)
+7) Start Diagnostic → (Primary CTA)
 
 ---
 
-## Primary CTA
-- Text: START FREE DIAGNOSTIC
-- Destination: /diagnostic
-- Tooltip/assistive (optional): "Identify learning gaps in 2-3 hours—free."
+## Mega Menu: Start Study (3 Columns)
+
+### Column 1 – Choose by Grade Level
+- Starter Primary — "Play-based foundational learning" — /starter-primary — Icon: 🎨
+- Lower Primary — "Reading fluency & problem solving" — /lower-primary — Icon: 📚
+- Upper Primary — "Abstract thinking & scientific reasoning" — /upper-primary — Icon: 🔬
+- Get Ready — "World's only O-Level bridge program" — /get-ready — Icon: 🎯 — Badge: ⭐ UNIQUE
+- O-Level / IGCSE — "Complete Cambridge curriculum" — /olevel-igcse — Icon: 🎓
+- FSc / Intermediate — "Pakistan Board + MDCAT/ECAT" — /fsc-intermediate — Icon: 🏛️
+
+### Column 2 – Browse by Subject
+- Mathematics — "Grade 1 - O-Level" — /subjects/mathematics — Icon: Σ
+- English — "Literacy & Language" — /subjects/english — Icon: 📖
+- Physics — "O-Level Physics" — /subjects/physics — Icon: ⚛️
+- Chemistry — "O-Level Chemistry" — /subjects/chemistry — Icon: 🧪
+- Biology — "O-Level Biology" — /subjects/biology — Icon: 🧬
+- View All Subjects → — /courses
+
+### Column 3 – Featured & Quick Links
+- Featured Card Title: "Get Ready Courses" — "92% O-Level pass rate (vs 55% without)" — CTA: "Discover Get Ready →" — /get-ready — Badge: ⭐ FEATURED
+- Quick Start Links:
+  * Take Free Diagnostic Test — /diagnostic
+  * Browse All Courses — /courses
+  * See Sample Lessons — /sample-lessons
+  * View Pricing — /pricing
 
 ---
 
-## Secondary Link (Optional)
-- Text: View Features
-- Destination: /features
-- Usage: Desktop only or within mobile menu as secondary action.
+## Dropdown: Who We Serve
+- For Students — "Self-paced mastery learning" — /students — Icon: 🎓
+- For Parents — "Real-time visibility & control" — /parents — Icon: 👨‍👩‍👧
+- For Homeschool Families — "Complete curriculum + validation" — /homeschool — Icon: 🏡
+- For Teachers — "Ready-made resources + income" — /teachers — Icon: 👨‍🏫
+- For Schools — "Institutional solutions" — /schools — Icon: 🏫
+- Compare Solutions → — /compare
+
+---
+
+## Dropdown: About
+- Our Story — "Mission, vision, and values" — /about — Icon: 📖
+- How It Works — "Platform features explained" — /how-it-works — Icon: ⚙️
+- Research & Validation — "Independent university study" — /research — Icon: 🔬 — Badge: UNIVERSITY-PROVEN
+- Our Team — "Meet the educators & experts" — /team — Icon: 👥
+- Success Stories — "Real students, real results" — /success-stories — Icon: 🏆
+- Why Choose EduMeUp? → — /why-edumeup
+
+---
+
+## Dropdown: Resources
+Section: Learning Resources
+- Blog — "Education tips & insights" — /blog — Icon: 📝
+- Sample Lessons — "Try before you enroll" — /sample-lessons — Icon: 🎬
+- Past Papers Library — "Enhanced O-Level papers" — /past-papers — Icon: 📄
+- Parent Guide — "Support your child's learning" — /parent-guide — Icon: 📚
+
+Section: Support
+- Help Center — "FAQs & troubleshooting" — /help — Icon: ❓
+- Contact Us — "Get in touch with our team" — /contact — Icon: 💬
+- Schedule Demo — "Book a live walkthrough" — /demo — Icon: 📅
+
+---
+
+## Pricing Link
+- Pricing — /pricing
+
+---
+
+## CTAs
+- My Account — /my-account — Secondary CTA text.
+- Start Diagnostic → — /diagnostic — Primary CTA text.
 
 ---
 
 ## Mobile Menu Labels
-- Header: EduMeUp
-- Close button: Close menu (visual: ×)
-- CTA button: START FREE DIAGNOSTIC
+- Header label: "EduMeUp"
+- Close button: "Close menu" (visual: ×)
+- Include all items above in same order; keep CTA button text: "Start Diagnostic →".
 
 ---
 
-## Skip Link (Accessibility, Optional)
-- Text: Skip to main content
-- Destination anchor: #main-content
+## Skip Link (Optional)
+- Text: "Skip to main content" — Anchor: #main-content
 
 ---
 
 ## ARIA / Accessible Names
-- Hamburger button: "Open menu" (changes to "Close menu" when expanded)
-- Logo link: "EduMeUp Home"
-
----
-
-## Notes
-- Keep labels short and scannable.
-- Use title case for nav labels.
-- Avoid ellipses; no abbreviations needed.
+- Hamburger: "Open menu" (toggle to "Close menu" when expanded)
+- Logo: "EduMeUp Home"
